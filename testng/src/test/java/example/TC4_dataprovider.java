@@ -23,6 +23,7 @@ public class TC4_dataprovider {
         driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys(webName);
         Thread.sleep(3000);
     }
+
     @AfterMethod
     public void close() {
         driver.close();
@@ -30,7 +31,7 @@ public class TC4_dataprovider {
 
     @DataProvider(name = "webSite")
     public Object[] webSiteName() {
-        return new Object[] {
+        return new Object[]{
                 "fb", "zalo", "instagram"
 
         };
