@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Topic4_Operator {
 
     public static void main(String[] args) {
-        //calculateAge();
-        //swapperNumber();
+        calculateAge();
+        swapperNumber();
         compareNumber();
     }
 

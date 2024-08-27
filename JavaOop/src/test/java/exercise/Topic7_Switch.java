@@ -5,8 +5,8 @@ import java.util.*;
 public class Topic7_Switch {
 
     public static void main(String[] args) {
-        // switchNumber();
-        //calculate();
+        switchNumber();
+        calculate();
         month();
     }
 

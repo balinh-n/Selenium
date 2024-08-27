@@ -2,15 +2,15 @@ package exercise;
 
 import java.util.Scanner;
 
-public class Top8_Loop {
+public class Topic8_Loop {
 
     public static void main(String[] args) {
-        // TC1_printNumber();
-        // TC2_printNumber();
-        // TC3_printNumber();
-        // TC4_printNumber();
-        // TC5_pinttNumber();
-        // TC6_pinttNumber();
+        TC1_printNumber();
+        TC2_printNumber();
+        TC3_printNumber();
+        TC4_printNumber();
+        TC5_pinttNumber();
+        TC6_pinttNumber();
         TC7_pinttNumber();
     }
 
